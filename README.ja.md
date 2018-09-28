@@ -13,9 +13,12 @@
 
 ## 無料のテストコイン
 
-テストするためにコインを取得しないといけませんので、下記のリンクにとんでもらいます。
+テストするためにコインを取る必要があるので、下記のリンクにとんでもらいます。
 
 [Hamburg Testnet Faucet](https://testnet.manu.backend.hamburg/faucet)
+
+
+[全てのビットコインの歴史が見れるサイト](https://live.blockcypher.com/btc-testnet/).
 
 ## Node.jsのビットコイン財布
 
