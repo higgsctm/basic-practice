@@ -18,13 +18,13 @@ var mynetwork = bitcoin.networks.testnet; // 本物のお金の場合はlivenet�
 var myWIF = bitcoin.ECPair.makeRandom({ network: mynetwork }).toWIF();
 console.log('My super secret private key='+myWIF);
 var keyPair = bitcoin.ECPair.fromWIF(myWIF,mynetwork);
-var address = keyPair.getAddress();
+var { address } = bitcoin.payments.p2pkh({ pubkey: keyPair.publicKey });
 console.log('My public, shareable address='+address);
 
 var myWIFSecond = bitcoin.ECPair.makeRandom({ network: mynetwork }).toWIF();
 console.log('My Second super secret private key='+myWIFSecond);
 var keyPairSecond = bitcoin.ECPair.fromWIF(myWIFSecond,mynetwork);
-var addressSecond = keyPairSecond.getAddress();
+var addressSecond = bitcoin.payments.p2pkh({ pubkey: keyPairSecond.publicKey });
 console.log('My Second public, shareable address='+addressSecond);
 
 
