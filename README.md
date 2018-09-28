@@ -21,6 +21,7 @@ To avoid messing up the development environment, Docker is used frequently to co
 In order to do testing, you need to get test coins.  Go to the link below and get some free testnet coins.
 
 [Hamburg Testnet Faucet](https://testnet.manu.backend.hamburg/faucet)
+* [try this one too](https://kuttler.eu/en/bitcoin/btc/faucet/)
 
 [This is the testnet block chain explorer](https://live.blockcypher.com/btc-testnet/).
 

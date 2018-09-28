@@ -16,6 +16,7 @@
 テストするためにコインを取る必要があるので、下記のリンクにとんでもらいます。
 
 [Hamburg Testnet Faucet](https://testnet.manu.backend.hamburg/faucet)
+* [try this one too](https://kuttler.eu/en/bitcoin/btc/faucet/)
 
 
 [全てのビットコインの歴史が見れるサイト](https://live.blockcypher.com/btc-testnet/).
