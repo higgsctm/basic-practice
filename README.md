@@ -15,6 +15,15 @@ To avoid messing up the development environment, Docker is used frequently to co
 
 # Bitcoin Practice
 
+First, clone this repository.
+
+```bash
+mkdir -p $HOME/localwork
+cd $HOME/localwork
+git clone https://github.com/higgsctm/basic-practice
+cd basic-practice
+```
+
 
 ## Testnet Faucet
 

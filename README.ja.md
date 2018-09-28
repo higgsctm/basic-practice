@@ -9,7 +9,16 @@
 
 [このページになっています。](CheatSheet.ja.md)
 
+
+
 # Bitcoinの練習
+
+```bash
+mkdir -p $HOME/localwork
+cd $HOME/localwork
+git clone https://github.com/higgsctm/basic-practice
+cd basic-practice
+```
 
 ## 無料のテストコイン
 
