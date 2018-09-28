@@ -25,6 +25,7 @@ var myWIFSecond = bitcoin.ECPair.makeRandom({ network: mynetwork }).toWIF();
 console.log('My Second super secret private key='+myWIFSecond);
 var keyPairSecond = bitcoin.ECPair.fromWIF(myWIFSecond,mynetwork);
 var addressSecond = bitcoin.payments.p2pkh({ pubkey: keyPairSecond.publicKey });
+addressSecond = addressSecond.address;
 console.log('My Second public, shareable address='+addressSecond);
 
 
